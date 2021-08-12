@@ -1,4 +1,4 @@
-chatterbot>=1.0,<1.1
+git+https://github.com/SingularChatelet/ChatterBot.git
 nose
 pip
 twine
