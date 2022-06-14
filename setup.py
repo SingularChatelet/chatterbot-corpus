@@ -4,7 +4,6 @@ Setup file for chatterbot-corpus.
 """
 from setuptools import setup
 
-
 # Dynamically retrieve the version information from the chatterbot module
 CORPUS = __import__('chatterbot_corpus')
 VERSION = CORPUS.__version__
@@ -18,8 +17,6 @@ setup(
     version=VERSION,
     url=URL,
     download_url='{}/tarball/{}'.format(URL, VERSION),
-    setup_requires=['setuptools-markdown'],
-    long_description_markdown_filename='readme.md',
     description=DESCRIPTION,
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
